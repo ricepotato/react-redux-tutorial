@@ -1,11 +1,12 @@
 import React from "react";
-import Counter from "./Components/Counter";
+
 import Todos from "./Components/Todos";
+import CounterContainer from "./Containers/CounterContainer";
 
 function App() {
   return (
     <div>
-      <Counter number={0}></Counter>
+      <CounterContainer></CounterContainer>
       <hr></hr>
       <Todos></Todos>
     </div>
